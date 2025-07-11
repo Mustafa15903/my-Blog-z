@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #f2f2f2;
+}
+
+.App {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.section {
+  padding: 80px 20px;
+  border-bottom: 1px solid #333;
+}

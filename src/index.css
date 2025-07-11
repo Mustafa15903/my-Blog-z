@@ -1,0 +1,36 @@
+/* أنماط عامة للصفحات */
+.page {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+.posts {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.post {
+  background: var(--post-bg, #f9f9f9);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* الثيم المظلم */
+.dark-theme {
+  --post-bg: #2a2a2a;
+}
+
+.navbar-right {
+  transition: all 0.3s ease;
+}
+.internal-links {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid var(--text-color);
+}
+.site-title {
+  margin-left: 15px; /* ضبط المسافة من اليسار فقط */
+}
