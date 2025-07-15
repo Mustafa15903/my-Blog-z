@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="page">
       <h1>Welcome to My Blog</h1>
-      <p>This is the homepage with latest posts.</p>
+      <p>This is the homepage  latest posts.</p>
       <Link to="/blog" className="button">Visit Blog</Link>
     </div>
   );
