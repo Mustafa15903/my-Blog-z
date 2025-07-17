@@ -6,7 +6,7 @@ function Contact() {
   const socialMedia = [
     {
       icon: <FaInstagram size={24} />,
-      url: "https://www.instagram.com/kingzvshh",
+      url: "https://www.instagram.com",
       color: "text-pink-600 hover:text-pink-700",
       label: "Instagram"
     },
@@ -18,7 +18,7 @@ function Contact() {
     },
     {
       icon: <FaGithub size={24} />,
-      url: "https://github.com/Mustafa15903",
+      url: "https://github.com",
       color: "text-gray-800 hover:text-black",
       label: "GitHub"
     },
