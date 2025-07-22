@@ -115,3 +115,14 @@ body {
   background-color: var(--body-bg);
   transition: background-color 0.3s, color 0.3s;
 }
+.footer {
+  margin-top: 8px;
+  text-align: center;
+  color: gray;
+  font-size: 0.875rem; /* 14px */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
