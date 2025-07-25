@@ -126,3 +126,38 @@ body {
   padding: 10px;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .shiny-container {
+    @apply bg-[#121212] flex justify-center items-center h-screen font-sans;
+  }
+
+  .shiny-text {
+    @apply text-5xl font-bold;
+    background: linear-gradient(
+      120deg,
+      rgba(209, 14, 14, 0.3) 30%,
+      rgb(165, 4, 240) 50%,
+      rgba(208, 140, 247, 0.3) 70%
+    );
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5.5s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+}
+

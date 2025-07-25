@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaEnvelope } from 'react-icons/fa';
+// import '../styles/tailwind.css';
+
 
 function Contact() {
   return (
@@ -15,11 +17,12 @@ function Contact() {
             </div>
           </div>
 
-          <p className="freef" style={{ textAlign: 'center' , ':hover': { color: 'blue' } }}>
-            Feel free to reach out to us via email for any inquiries.
+          <p className="shiny-text" style={{ textAlign: 'center' , ':hover': { color: 'blue' } }}>
+            Feel free to reach out to us via email for any inquiries✨.
           </p>
         </div>
       </div>
+   
 
       <footer className="footer">
         © {new Date().getFullYear()} All rights reserved.
